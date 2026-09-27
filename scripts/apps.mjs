@@ -11,9 +11,9 @@ export const ORG = path.resolve(
 // Os repos da organização são clonados lado a lado com este.
 export const REPOS = path.resolve(ORG, "..");
 
-// Slug do repo em roqueos-apps. Vazio até o primeiro app sair do RoqueOS (a Calculadora,
-// na Onda 3 do Goal 28): a página diz isso em vez de mostrar uma tabela vazia.
-export const APPS = [];
+// Slug do repo em roqueos-apps, na ordem da página. Lista vazia vira a frase "os apps
+// chegam um de cada vez" em vez de uma tabela vazia.
+export const APPS = ["calculadora"];
 
 if (APPS.length !== new Set(APPS).size) throw new Error("app repetido em APPS");
 

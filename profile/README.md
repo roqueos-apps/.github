@@ -12,7 +12,9 @@ _English below._
 
 ## Os apps
 
-Os apps chegam um de cada vez, conforme saem do RoqueOS. O primeiro é a Calculadora.
+|                                                                                                                                      | App                                                            | O que é                 |                                    |
+| :----------------------------------------------------------------------------------------------------------------------------------: | -------------------------------------------------------------- | ----------------------- | :--------------------------------: |
+| <img src="https://raw.githubusercontent.com/roqueos-apps/.github/main/profile/icones/calculadora.png" width="40" height="40" alt=""> | [**Calculadora**](https://github.com/roqueos-apps/calculadora) | Calculadora científica. | [Usar](https://roqueos.com.br/app) |
 
 ## Como um app fala com o RoqueOS
 
@@ -77,7 +79,9 @@ and TV.
 <details>
 <summary>The apps</summary>
 
-Apps arrive one at a time as they leave RoqueOS. The Calculator is the first.
+|                                                                                                                                      | App                                                           | What it is             |                                   |
+| :----------------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------- | ---------------------- | :-------------------------------: |
+| <img src="https://raw.githubusercontent.com/roqueos-apps/.github/main/profile/icones/calculadora.png" width="40" height="40" alt=""> | [**Calculator**](https://github.com/roqueos-apps/calculadora) | Scientific Calculator. | [Use](https://roqueos.com.br/app) |
 
 </details>
 
