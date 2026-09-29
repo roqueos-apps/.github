@@ -1,0 +1,89 @@
+{
+  "versao": 1,
+  "org": "roqueos-apps",
+  "pagina": "https://github.com/roqueos-apps",
+  "gerador": "node scripts/gerar.mjs",
+  "campos": {
+    "app": [
+      "nome.pt-BR",
+      "nome.en-US",
+      "descricao.pt-BR",
+      "descricao.en-US",
+      "icone",
+      "cor"
+    ]
+  },
+  "capa": ["calculadora", "notas", "qrcode", "lousa", "camera"],
+  "itens": [
+    {
+      "repo": "app-sdk",
+      "tipo": "biblioteca",
+      "descricao": "O contrato entre o RoqueOS e um app: definirApp, as capacidades do sistema, o manifesto app.json, sistemas de desenvolvimento e de teste, e o app check. MIT."
+    },
+    {
+      "repo": "calculadora",
+      "tipo": "app",
+      "valores": {
+        "nome.pt-BR": "Calculadora",
+        "nome.en-US": "Calculator",
+        "descricao.pt-BR": "Calculadora científica",
+        "descricao.en-US": "Scientific Calculator",
+        "icone": "calculate",
+        "cor": "#ff9500"
+      }
+    },
+    {
+      "repo": "notas",
+      "tipo": "app",
+      "valores": {
+        "nome.pt-BR": "Notas Autoadesivas",
+        "nome.en-US": "Sticky Notes",
+        "descricao.pt-BR": "Notas autoadesivas para sua área de trabalho",
+        "descricao.en-US": "Sticky notes for your desktop",
+        "icone": "sticky_note_2",
+        "cor": "#f59e0b"
+      }
+    },
+    {
+      "repo": "ui",
+      "tipo": "biblioteca",
+      "descricao": "O kit de interface dos apps do RoqueOS: ícones, interruptor, folha, confirmação e estado vazio, sem Quasar, com as variáveis do tema como contrato. MIT."
+    },
+    {
+      "repo": "qrcode",
+      "tipo": "app",
+      "valores": {
+        "nome.pt-BR": "QR Code",
+        "nome.en-US": "QR Code",
+        "descricao.pt-BR": "Gere QR Codes de links, Wi-Fi, e-mail e texto, no próprio aparelho",
+        "descricao.en-US": "Make QR codes for links, Wi-Fi, email and text, right on your device",
+        "icone": "qr_code_2",
+        "cor": "#8b5cf6"
+      }
+    },
+    {
+      "repo": "lousa",
+      "tipo": "app",
+      "valores": {
+        "nome.pt-BR": "Quadro Branco",
+        "nome.en-US": "Whiteboard",
+        "descricao.pt-BR": "Quadro branco para anotações e desenhos",
+        "descricao.en-US": "Whiteboard for notes and drawings",
+        "icone": "draw",
+        "cor": "#0ea5e9"
+      }
+    },
+    {
+      "repo": "camera",
+      "tipo": "app",
+      "valores": {
+        "nome.pt-BR": "Câmera",
+        "nome.en-US": "Camera",
+        "descricao.pt-BR": "Tire fotos e grave vídeos",
+        "descricao.en-US": "Take photos and record videos",
+        "icone": "photo_camera",
+        "cor": "#10b981"
+      }
+    }
+  ]
+}

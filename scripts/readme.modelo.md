@@ -14,6 +14,8 @@ _English below._
 
 {{APPS_PT}}
 
+{{BIBLIOTECAS_PT}}
+
 ## Como um app fala com o RoqueOS
 
 Nenhum app importa nada de dentro do sistema. Cada um exporta `mount(el, sistema)` e usa só as
@@ -80,6 +82,8 @@ and TV.
 {{APPS_EN}}
 
 </details>
+
+{{BIBLIOTECAS_EN}}
 
 An app exports `mount(el, system)` and uses only the capabilities the system hands it (who is
 using it, notices, language, device profile, metrics and its own storage). That contract is

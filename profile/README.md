@@ -12,9 +12,20 @@ _English below._
 
 ## Os apps
 
-|                                                                                                                                      | App                                                            | O que é                 |                                    |
-| :----------------------------------------------------------------------------------------------------------------------------------: | -------------------------------------------------------------- | ----------------------- | :--------------------------------: |
-| <img src="https://raw.githubusercontent.com/roqueos-apps/.github/main/profile/icones/calculadora.png" width="40" height="40" alt=""> | [**Calculadora**](https://github.com/roqueos-apps/calculadora) | Calculadora científica. | [Usar](https://roqueos.com.br/app) |
+|                                                                                                                                      | App                                                             | O que é                                                             |                                    |
+| :----------------------------------------------------------------------------------------------------------------------------------: | --------------------------------------------------------------- | ------------------------------------------------------------------- | :--------------------------------: |
+| <img src="https://raw.githubusercontent.com/roqueos-apps/.github/main/profile/icones/calculadora.png" width="40" height="40" alt=""> | [**Calculadora**](https://github.com/roqueos-apps/calculadora)  | Calculadora científica.                                             | [Usar](https://roqueos.com.br/app) |
+|    <img src="https://raw.githubusercontent.com/roqueos-apps/.github/main/profile/icones/notas.png" width="40" height="40" alt="">    | [**Notas Autoadesivas**](https://github.com/roqueos-apps/notas) | Notas autoadesivas para sua área de trabalho.                       | [Usar](https://roqueos.com.br/app) |
+|   <img src="https://raw.githubusercontent.com/roqueos-apps/.github/main/profile/icones/qrcode.png" width="40" height="40" alt="">    | [**QR Code**](https://github.com/roqueos-apps/qrcode)           | Gere QR Codes de links, Wi-Fi, e-mail e texto, no próprio aparelho. | [Usar](https://roqueos.com.br/app) |
+|    <img src="https://raw.githubusercontent.com/roqueos-apps/.github/main/profile/icones/lousa.png" width="40" height="40" alt="">    | [**Quadro Branco**](https://github.com/roqueos-apps/lousa)      | Quadro branco para anotações e desenhos.                            | [Usar](https://roqueos.com.br/app) |
+|   <img src="https://raw.githubusercontent.com/roqueos-apps/.github/main/profile/icones/camera.png" width="40" height="40" alt="">    | [**Câmera**](https://github.com/roqueos-apps/camera)            | Tire fotos e grave vídeos.                                          | [Usar](https://roqueos.com.br/app) |
+
+### Para quem constrói um app
+
+| Repo                                                 | O que é                                                                                                                                                       |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`app-sdk`](https://github.com/roqueos-apps/app-sdk) | O contrato entre o RoqueOS e um app: definirApp, as capacidades do sistema, o manifesto app.json, sistemas de desenvolvimento e de teste, e o app check. MIT. |
+| [`ui`](https://github.com/roqueos-apps/ui)           | O kit de interface dos apps do RoqueOS: ícones, interruptor, folha, confirmação e estado vazio, sem Quasar, com as variáveis do tema como contrato. MIT.      |
 
 ## Como um app fala com o RoqueOS
 
@@ -79,11 +90,17 @@ and TV.
 <details>
 <summary>The apps</summary>
 
-|                                                                                                                                      | App                                                           | What it is             |                                   |
-| :----------------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------- | ---------------------- | :-------------------------------: |
-| <img src="https://raw.githubusercontent.com/roqueos-apps/.github/main/profile/icones/calculadora.png" width="40" height="40" alt=""> | [**Calculator**](https://github.com/roqueos-apps/calculadora) | Scientific Calculator. | [Use](https://roqueos.com.br/app) |
+|                                                                                                                                      | App                                                           | What it is                                                            |                                   |
+| :----------------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------- | --------------------------------------------------------------------- | :-------------------------------: |
+| <img src="https://raw.githubusercontent.com/roqueos-apps/.github/main/profile/icones/calculadora.png" width="40" height="40" alt=""> | [**Calculator**](https://github.com/roqueos-apps/calculadora) | Scientific Calculator.                                                | [Use](https://roqueos.com.br/app) |
+|    <img src="https://raw.githubusercontent.com/roqueos-apps/.github/main/profile/icones/notas.png" width="40" height="40" alt="">    | [**Sticky Notes**](https://github.com/roqueos-apps/notas)     | Sticky notes for your desktop.                                        | [Use](https://roqueos.com.br/app) |
+|   <img src="https://raw.githubusercontent.com/roqueos-apps/.github/main/profile/icones/qrcode.png" width="40" height="40" alt="">    | [**QR Code**](https://github.com/roqueos-apps/qrcode)         | Make QR codes for links, Wi-Fi, email and text, right on your device. | [Use](https://roqueos.com.br/app) |
+|    <img src="https://raw.githubusercontent.com/roqueos-apps/.github/main/profile/icones/lousa.png" width="40" height="40" alt="">    | [**Whiteboard**](https://github.com/roqueos-apps/lousa)       | Whiteboard for notes and drawings.                                    | [Use](https://roqueos.com.br/app) |
+|   <img src="https://raw.githubusercontent.com/roqueos-apps/.github/main/profile/icones/camera.png" width="40" height="40" alt="">    | [**Camera**](https://github.com/roqueos-apps/camera)          | Take photos and record videos.                                        | [Use](https://roqueos.com.br/app) |
 
 </details>
+
+Libraries for building an app: [`app-sdk`](https://github.com/roqueos-apps/app-sdk), [`ui`](https://github.com/roqueos-apps/ui).
 
 An app exports `mount(el, system)` and uses only the capabilities the system hands it (who is
 using it, notices, language, device profile, metrics and its own storage). That contract is
